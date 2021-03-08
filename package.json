@@ -7,7 +7,7 @@
     "cleanCache": "rm -rf ./node_modules/.cache/webpack",
     "clean": "rm -rf ./prod && yarn run cleanCache",
     "start": "tsc && yarn run lint && webpack serve --port 9000 --mode production --devtool inline-source-map --content-base ./public",
-    "build": "yarn run clean && yarn run lint && tsc && yarn run test && webpack --mode production",
+    "build": "yarn run clean && yarn run lint && tsc && webpack --mode production",
     "run:tsc": "tsc",
     "test": "jest",
     "lint": "eslint . --ext .js,.ts,.tsx --quiet --fix"
