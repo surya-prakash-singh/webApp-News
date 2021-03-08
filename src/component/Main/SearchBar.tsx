@@ -53,7 +53,7 @@ const SearchBar: React.FC<Props> = ({ populateArticle, status }) => {
   return (
     <div className="form-search" role="form">
       <label className="search--label" htmlFor="search">
-        Enter Keyword For News Search: Example Messi
+        Enter Keyword For News Search: Example British
       </label>
 
       <input
