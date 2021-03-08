@@ -11,6 +11,7 @@ const nodePathParts = ["./src", "./node_modules"].map((p) => path.resolve(p));
 const indexHTML = new HTMLWebpackPlugin({
   template: "./public/index.html",
   inject: "body",
+  favicon: "./public/favicon/favicon.ico"
 });
 
 const compressPlugin = new CompressionPlugin({
