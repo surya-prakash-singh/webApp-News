@@ -1,0 +1,15 @@
+.wrapper--header {
+  display: flex;
+  width: 100%;
+  background-color: #5514b4;
+  color: #ffffff;
+}
+
+.header--logo {
+  width: 5rem;
+  height: 5rem;
+  padding: 1.5rem;
+  @media screen and (min-width: 600px) {
+    margin-left: 3rem;
+  }
+}
