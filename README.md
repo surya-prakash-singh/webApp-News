@@ -3,14 +3,15 @@ A single page App to allow users to search the newsapi.
 
 
 Tech Stack:-
-1> React
-2> Webpack
-3> CSS,SCSS
-4> Javascript
-5> TypeScript
-6> Fetch - https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
-7> Jest
-8> Testing Library React
+
+1) React
+2) Webpack
+3) CSS,SCSS
+4) Javascript
+5) TypeScript
+6) Fetch - https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
+7) Jest
+8) Testing Library React
 
 The Application Allows user to search for News Article, It displays ten matching articles.
 
