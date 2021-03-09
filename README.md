@@ -20,7 +20,7 @@ Steps for dev Build:-
 1) Clone the repository 
 2) run yarn to install dependencies 
 3) run 'yarn run start' 
-4) d) Once compilation is successful ,Navigate to  http://localhost:9000/ in browser
+4) Once compilation is successful ,Navigate to  http://localhost:9000/ in browser
 
 
 Prod:-
