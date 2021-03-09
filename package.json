@@ -6,8 +6,8 @@
   "scripts": {
     "cleanCache": "rm -rf ./node_modules/.cache/webpack",
     "clean": "rm -rf ./prod && npm run cleanCache",
-    "start": "tsc && npm run lint && webpack serve --port 9000 --mode production --devtool inline-source-map --content-base ./public",
-    "build": "npm run clean && npm run lint && tsc && webpack --mode production",
+    "start": "npm run lint && webpack serve --port 9000 --mode production --devtool inline-source-map --content-base ./public",
+    "build": "npm run clean && npm run lint && && webpack --mode production",
     "run:tsc": "tsc",
     "test": "jest",
     "lint": "eslint . --ext .js,.ts,.tsx --quiet --fix"
